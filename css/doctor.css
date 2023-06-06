@@ -1,0 +1,261 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html, body {
+    height: 100%;
+}
+
+table tr td {
+    white-space: nowrap; /* Add this property to prevent line breaks */
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+    min-height: 100%;
+}
+
+.wrapper2{
+    display: flex;
+}
+
+.text-center {
+    text-align: center;
+}
+.menu-top{
+    background-color: #131418;
+    color: white;
+}
+
+.text-black {
+    color: black;
+}
+.text-offwhite{
+    color:#999;
+}
+
+.tbl-full {
+    width: 100%;
+    
+}
+
+.tbl-30 {
+    width: 100%;
+}
+
+table tr th {
+    padding: 1%;
+    text-align: center;
+}
+
+table tr td {
+    padding: 1%;
+    text-align: center;
+}
+
+.btn-primary {
+    background-color: #1746B0;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover {
+    background-color: #133F9A;
+}
+
+.btn-secondary {
+    background-color: #2ECC71;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover {
+    background-color: #27AE60;
+}
+
+.btn-danger {
+    background-color: #E74C3C;
+    color: white;
+    padding: 1%;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover {
+    background-color: #C0392B;
+}
+
+.success {
+    color: #2ECC71;
+}
+
+.error {
+    color: #E74C3C;
+}
+
+.menu {
+    text-align: center;
+    border-bottom: 1px solid gray;
+    background-color: #131418;
+}
+
+.menu .wrapper ul li {
+    list-style-type: none;
+    display: inline;
+    padding: 1%;
+}
+
+.menu .wrapper ul li a {
+    text-decoration: none;
+    font-weight: 700;
+    color: white;
+}
+
+.menu .wrapper ul li a:hover {
+    color: #2ECC71;
+}
+
+.main-content {
+    background-color: aliceblue;
+    padding: 3% 0;
+    flex-grow: 1;
+}
+
+.col-4 {
+    width: 20%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.login {
+    border: 1px solid grey;
+    width: 400px;
+    margin: 10% auto;
+    padding: 2%;
+    text-align: center;
+    background-color: white;
+    box-shadow: 0px 0px 100px rgba(0, 0, 0, 0.1);
+}
+
+.login h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+}
+
+.login form {
+    margin-top: 20px;
+}
+
+.login form input[type="text"],
+.login form input[type="password"] {
+    width: 80%;
+    height: 40px;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 10px;
+}
+
+.login form input[type="submit"] {
+    width: 100%;
+    height: 40px;
+    border: none;
+    background-color: #1746B0;
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+}
+
+.login form input[type="submit"]:hover {
+    background-color: #133F9A;
+}
+
+.login p {
+    margin-top: 20px;
+    font-size: 14px;
+    color: #999;
+}
+
+.login p a {
+    color: #1746B0;
+    text-decoration: none;
+}
+
+.login p a:hover {
+    text-decoration: underline;
+}
+
+.footer {
+    background-color: #131418;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 1% 0;
+}
+
+.cn {
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+}
+
+/* Center the content */
+.main-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  /* Style the doctor details section */
+  .doctor-details {
+    text-align: center;
+  }
+  
+  .doctor-details h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  .doctor-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .doctor-image img {
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    object-fit: cover;
+    object-position: center;
+    margin-right: 20px;
+  }
+  
+  .doctor-data p {
+    margin-bottom: 10px;
+  }
+  
+  .doctor-data strong {
+    font-weight: bold;
+  }
+  
