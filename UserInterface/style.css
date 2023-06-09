@@ -1,0 +1,328 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+.main {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(BGI.jpg);
+    background-position: center;
+    background-size: contain;
+    height: 109vh;
+}
+
+.main header{
+    background-color: rgba(51, 51, 51, 0.8);
+    color: #fff;
+    padding: 20px;
+}
+
+
+.navbar {
+    width: 1200px;
+    height: 85px;
+    margin: auto;
+}
+
+.icon {
+    width: 400px;
+    float: inline-start;
+    height: 20px;
+    color: rgb(248, 238, 152);
+    font-size: 20px;
+    font-family: Arial;
+    padding-left: 440px;
+    float: left;
+    padding-top: 4px;
+}
+
+.menu {
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 0;
+    display: flex;
+}
+.menu ul{
+    word-spacing:110px;
+}
+
+.menu ul li {
+    display: inline-block;
+    align-items: center;
+    list-style: none;
+    margin: 10px 30px;
+    font-size: 17px;
+}
+
+.menu ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+}
+
+.payment a {
+    display: inline-block;
+    float: right;
+    align-items: baseline;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+
+}
+
+.profile-link a {
+    display: inline-block;
+    float: right;
+    align-items: flex-end;
+    text-decoration: none;
+    color: #fff;
+    font-family: Arial;
+    font-weight: bolder;
+    transition: 0.4s ease-in-out;
+
+}
+
+.navbar .menu ul li a:hover,
+.profile-link a:hover {
+    color: rgb(102, 241, 241);
+}
+
+
+.content h1 {
+    margin-top: 5.0;
+    margin-left: 5.0;
+    margin-right: 5.0;
+    padding-left: 20px;
+    color: #9ec2f7;
+    font-size: 50px; 
+    text-align: left;
+    
+}
+
+.content p {
+    margin-top: 5.0;
+    margin-left: 5.0;
+    margin-right: 5.0;
+    padding-left: 20px;
+    color: #f5f8c5;
+    font-size: 30px; 
+    text-align: left;
+    
+}
+
+.doctors-section{
+    padding: 50px 20px;
+    background-color: #fafac4;
+    background-size: cover;
+    text-align: center;
+    color: #000;
+}
+
+.doctors-section ul {
+    padding: 50px 20px;
+    margin: 0;
+    padding: 5px;
+    list-style-type: square;
+}
+
+.doctors-section ul ol:hover {
+    color: #0b215f;
+}
+
+.appointment-section{
+    background-color: #fafac4;
+    background-size: cover;
+}
+
+.appointment-section h2{
+    padding: 50px 20px;
+    background-color: none;
+    text-align: center;
+    font-size: larger;
+    font-family: Arial;
+}
+.appointment-section form {
+    max-width: 400px;
+    margin: 0 auto;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    white-space: nowrap !important;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.appointment-btn {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #0077be;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.appointment-btn:hover {
+    background-color: #1462b6;
+    color: #f5a7f1;
+}
+
+.go-back-btn {
+    background-color: #00b300;
+    color: #fff;
+    width: 100%;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.go-back-btn:hover {
+    background-color: #008000;
+}
+
+.contact-section {
+    background-color: #fafac4;
+    background-size: cover;
+    padding-top: 100px;
+    padding-left: 50px;
+}
+
+.contact-section h2{
+    font-size: larger;
+    font-family: Arial;
+    text-align: center;
+}
+
+.contact-section p{
+    font-size: medium;
+    font-family: Arial;
+    text-align: center;
+}
+
+/* Personal Profile Modal */
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 999;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+.modal-content {
+    background-color: #fefefe;
+    margin: 10% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    max-width: 500px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-group label {
+    display: inline-block;
+    width: 100px;
+}
+
+.form-group input[type="password"] {
+    margin-left: 5px;
+}
+
+.form-group button[type="submit"] {
+    margin-left: 100px;
+    background-color: #0d3253; /* Green */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+.go-back-button {
+    background-color: green;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+.close {
+    color: #888;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.close:hover,
+.close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.logout {
+    text-decoration: none;
+    float: right;
+    text-align: center;
+}
+
+.logout-btn {
+    background-color: #ff0000;
+    color: #fff;
+    padding: 8px 16px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: Arial;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4s ease;
+
+}
+
+.logout-btn:hover {
+    background-color: #5b0606;
+}
+
+
+
+
+

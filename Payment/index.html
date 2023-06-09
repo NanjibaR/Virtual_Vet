@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html  lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Payment</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="CollectPaymentInf.php" method="POST">
+            <div class="row">
+                <div class="col">
+                    <h3 class="title">Methods</h3>
+                    <div class="images">
+                        <img src="Img.png" alt="">
+                    </div>
+                    <div class="inputBox">
+                        <span> Which Gateway: </span>
+                        <input type="text" placeholder="Bkash/Nogod/Rocket">
+                    </div>
+                    <div class="inputBox">
+                        <span>Your Number (By which you will pay):</span>
+                        <input type="tel" name="phoneNumber" placeholder="01635259082">
+                    </div>
+                </div>
+                <div class="col">
+                    <h3 class="title">Pay your bill to this number: 01635259082</h3>
+                    <div class="inputBox">
+                        <span> Reference Name or Number: </span>
+                        <input type="text" name="referenceName" placeholder="Nanjiba">
+                    </div>
+                    <div class="inputBox">
+                        <span> TrxID: </span>
+                        <input type="text" name="trxID" placeholder="ADK0RTZHKL">
+                    </div>
+                </div>
+                <input type="submit" value="Payment Done" class="submit-btn"> 
+                <a href="http://localhost/UserInterface/index.html" class="go-back-btn">Go Back</a> 
+            </div> 
+              
+        </form>
+    </div>
+
+</body>
+</html>

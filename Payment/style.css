@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap');
+*{
+    font-family: 'Poppins',sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg,  rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(BG1.jpg);
+    padding-bottom: 70px;
+}
+
+.container form{
+    padding: 20px;
+    width: 700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+
+}
+
+.container form .row .col{
+    flex:1 1 250px;
+}
+.container form .row .col .title{
+    font-size: 20px;
+    color: #333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+}
+
+.container form .row .col .inputBox{
+    margin: 15px 0;
+}
+
+.container form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+}
+
+.container form .row .col .inputBox input{
+    width: 100%;
+    border: 1px solid #ccc;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: none;
+}
+.container form .row .col .inputBox input:focus{
+    border: 1px solid #000;
+}
+.container form .row .submit-btn{
+    width: fit-content;
+    position: relative;
+    padding: 12px;
+    font-size: 17px;
+    background: #333;
+    color: #fff;
+    margin-top: 5px;
+    cursor: pointer;
+}
+
+.container form .row .submit-btn:hover{
+    background: rgb(22, 80, 109);
+}
+
+
+.container form .row .go-back-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px 20px;
+    background-color: #04462f;
+    color: #f1e9e9;
+    text-decoration: none;
+}
+.container form .row .go-back-btn:hover {
+    background: #046d48;
+}
+
+
+

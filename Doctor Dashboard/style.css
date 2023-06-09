@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.5)50%, rgba(0, 0, 0, 0.5)50%), url(BG1.jpg);
+    background-position:center ;
+    background-size: cover;
+    height: 109vh;
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    margin: 0;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: transparent;
+    padding: 40px;
+    border-radius: 5px;
+}
+
+
+header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+h1 {
+    color: antiquewhite;
+}
+
+.doctor-info {
+    margin-bottom: 40px;
+}
+ h2 {
+    color: rgb(102, 224, 220);
+    padding-top: 10px;
+ }
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.2);
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.info-box label {
+    color: #fff;
+    font-weight: bold;
+}
+
+.info-box input {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+.info-box p {
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 5px;
+}
+
+
+.update-btn {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.update-btn:hover {
+    background-color: #2980b9;
+}
+
+.appointments {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.appointments h2{
+    color: aliceblue;
+}
+
+.check-appointments-btn {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.apply-appointments-btn {
+    background-color: #054449;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.3s;
+}
+
+.check-appointments-btn:hover,
+.apply-appointments-btn:hover {
+    background-color: #55daef;
+}
+
+.payment-btn {
+    background-color: #841004;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: inherit;
+    transition: background-color 0.3s;
+}
+
+.payment-btn:hover {
+    background-color: #c84b3d;
+}
+
+button{
+    background-color: #f12913;
+    color: aliceblue;
+    border: none;
+    padding-left: 100px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    float: initial;
+    transition: background-color 0.3s;
+
+}
+
+button:hover{
+    background-color: #52140e;
+}
